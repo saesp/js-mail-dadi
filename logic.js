@@ -4,22 +4,24 @@
 
 // creare lista email
 const emailList = ["gio@gmail.it", "fra@gmail.it", "vin@gmail.it"];
-console.log(emailList);
+console.log("Email list:", emailList);
 
 // chiedere all'utente la sua email
 let userEmail = prompt("Inserisci la tua email");
 console.log("user email:", userEmail);
 
-for (let i; i < emailList.lenght; i++){
-    let elementList = emailList[i];
-    
-    // stampare un messaggio per l'utente
-    if (userEmail === elementList){
-        console.log("Sei invitato");
-    } else{
-        console.log("Non sei invitato");
-    }
+for (let i = 0; i < emailList.lenght; i++){
+    var elementList = emailList[i];
+    console.log(elementList);
 }
+
+// stampare un messaggio per l'utente
+if (userEmail == elementList){
+    console.log("Sei invitato");
+} else{
+    console.log("Non sei invitato");
+}
+
 
 
 
