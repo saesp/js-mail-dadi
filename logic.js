@@ -10,10 +10,16 @@ console.log(emailList);
 let userEmail = prompt("Inserisci la tua email");
 console.log(userEmail);
 
-// stampare un messaggio per l'utente
-if (userEmail === emailList){
-    console.log("Sei invitato");
-} else{
-    console.log("Non sei invitato");
+for (let i; i < emailList.lenght; i++){
+    let elementList = emailList[i];
+    
+    // stampare un messaggio per l'utente
+    if (userEmail === elementList){
+        console.log("Sei invitato");
+    } else{
+        console.log("Non sei invitato");
+    }
 }
+
+
 
