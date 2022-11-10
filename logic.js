@@ -8,7 +8,7 @@ console.log(emailList);
 
 // chiedere all'utente la sua email
 let userEmail = prompt("Inserisci la tua email");
-console.log(userEmail);
+console.log("user email:", userEmail);
 
 for (let i; i < emailList.lenght; i++){
     let elementList = emailList[i];
