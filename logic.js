@@ -8,7 +8,7 @@ console.log(emailList);
 
 // chiedere all'utente la sua email
 let userEmail = prompt("Inserisci la tua email");
-console.log(userEmail)
+console.log(userEmail);
 
 // stampare un messaggio per l'utente
 if (userEmail === emailList){
