@@ -11,12 +11,12 @@ console.log("Email list:", emailList);
 
 let emailTrovata = false;
 
-for (let i = 0; i < emailList.lenght; i++){
+for (let i = 0; i < emailList.length; i++){
 
     if (userEmail == emailList[i]) {
         emailTrovata = true;
     }
-};
+}
 
 // stampare un messaggio per l'utente
 if (emailTrovata === false){
